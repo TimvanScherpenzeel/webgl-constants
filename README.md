@@ -1,6 +1,9 @@
 # WebGL constants
 
-[![npm version](https://badge.fury.io/js/webgl-constants.svg)](https://badge.fury.io/js/webgl-constants)
+![](http://img.badgesize.io/TimvanScherpenzeel/webgl-constants/master/dist/webgl-constants.cjs.js.svg?compression=gzip&maxAge=60)
+[![npm version](https://badge.fury.io/js/%40timvanscherpenzeel%2Fwebgl-constants.svg)](https://badge.fury.io/js/%40timvanscherpenzeel%2Fwebgl-constants)
+[![dependencies](https://david-dm.org/timvanscherpenzeel/webgl-constants/webgl-constants.svg)](https://david-dm.org/timvanscherpenzeel/webgl-constants)
+[![devDependencies](https://david-dm.org/timvanscherpenzeel/webgl-constants/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/webgl-constants#info=devDependencies)
 
 Complete set of constants as specified in the WebGL, WebGL2 and extension spec.
 
