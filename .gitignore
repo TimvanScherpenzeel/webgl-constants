@@ -10,9 +10,5 @@
 # Node
 node_modules
 
-# Directories
-docs
-dist
-
 # Logging
 *.log
