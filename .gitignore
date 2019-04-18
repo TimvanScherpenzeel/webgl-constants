@@ -10,5 +10,8 @@
 # Node
 node_modules
 
+# Directories
+docs
+
 # Logging
 *.log

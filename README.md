@@ -4,11 +4,7 @@
 
 Complete set of constants as specified in the WebGL, WebGL2 and extension spec.
 
-All constants have their original names prefixed with `GL_` in order to namespace the constants and were directly ported from the documentation on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Constants). In some cases the documentation describes duplicate cases such as `UNSIGNED_BYTE` as both a `data` type as well as a `pixel` type. For that reason I've decided to prefix each with their type resulting in `GL_DATA_UNSIGNED_BYTE` and  `GL_PIXEL_UNSIGNED_BYTE`.
-
-## Documentation
-
-[Documentation](https://timvanscherpenzeel.github.io/webgl-constants/)
+All constants have their original names prefixed with `GL_` in order to namespace the constants and were directly ported from the documentation on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Constants). In some cases the documentation describes duplicate cases such as `UNSIGNED_BYTE` as both a `data` type as well as a `pixel` type. For that reason I've decided to prefix each with their type resulting in `GL_DATA_UNSIGNED_BYTE` and `GL_PIXEL_UNSIGNED_BYTE`.
 
 ## Licence
 

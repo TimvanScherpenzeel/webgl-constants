@@ -11,8 +11,7 @@
     "start": "rollup -c rollup.config.ts -w",
     "lint": "tslint --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist docs",
-    "build": "tsc --module commonjs && rollup -c rollup.config.ts",
-    "postbuild": "typedoc --out docs --target es5 --theme minimal --hideGenerator"
+    "build": "tsc --module commonjs && rollup -c rollup.config.ts"
   },
   "author": "Tim van Scherpenzeel",
   "dependencies": {},
@@ -27,7 +26,6 @@
     "rollup-plugin-typescript2": "^0.20.1",
     "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
-    "typedoc": "^0.14.2",
     "typescript": "^3.4.3"
   },
   "prettier": {
