@@ -1,6 +1,6 @@
 {
   "name": "webgl-constants",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Complete set of constants as specified in the WebGL, WebGL2 and extension spec.",
   "main": "dist/webgl-constants.cjs.js",
   "browser": "dist/webgl-constants.umd.js",
