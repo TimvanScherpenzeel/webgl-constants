@@ -622,31 +622,31 @@ export declare const GL_GENERATE_MIPMAP_HINT: number;
 /**
  * @constant {number}
  */
-export declare const GL_DATA_BYTE: number;
+export declare const GL_BYTE: number;
 /**
  * @constant {number}
  */
-export declare const GL_DATA_UNSIGNED_BYTE: number;
+export declare const GL_UNSIGNED_BYTE: number;
 /**
  * @constant {number}
  */
-export declare const GL_DATA_SHORT: number;
+export declare const GL_SHORT: number;
 /**
  * @constant {number}
  */
-export declare const GL_DATA_UNSIGNED_SHORT: number;
+export declare const GL_UNSIGNED_SHORT: number;
 /**
  * @constant {number}
  */
-export declare const GL_DATA_INT: number;
+export declare const GL_INT: number;
 /**
  * @constant {number}
  */
-export declare const GL_DATA_UNSIGNED_INT: number;
+export declare const GL_UNSIGNED_INT: number;
 /**
  * @constant {number}
  */
-export declare const GL_DATA_FLOAT: number;
+export declare const GL_FLOAT: number;
 /**
  * @constant {number}
  */
@@ -674,19 +674,15 @@ export declare const GL_LUMINANCE_ALPHA: number;
 /**
  * @constant {number}
  */
-export declare const GL_PIXEL_UNSIGNED_BYTE: number;
+export declare const GL_UNSIGNED_SHORT_4_4_4_4: number;
 /**
  * @constant {number}
  */
-export declare const GL_PIXEL_UNSIGNED_SHORT_4_4_4_4: number;
+export declare const GL_UNSIGNED_SHORT_5_5_5_1: number;
 /**
  * @constant {number}
  */
-export declare const GL_PIXEL_UNSIGNED_SHORT_5_5_5_1: number;
-/**
- * @constant {number}
- */
-export declare const GL_PIXEL_UNSIGNED_SHORT_5_6_5: number;
+export declare const GL_UNSIGNED_SHORT_5_6_5: number;
 /**
  * Passed to createShader to define a fragment shader
  * @constant {number}

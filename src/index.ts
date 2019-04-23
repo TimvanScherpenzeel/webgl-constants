@@ -791,37 +791,37 @@ export const GL_GENERATE_MIPMAP_HINT: number = 0x8192;
 /**
  * @constant {number}
  */
-export const GL_DATA_BYTE: number = 0x1400;
+export const GL_BYTE: number = 0x1400;
 
 /**
  * @constant {number}
  */
-export const GL_DATA_UNSIGNED_BYTE: number = 0x1401;
+export const GL_UNSIGNED_BYTE: number = 0x1401;
 
 /**
  * @constant {number}
  */
-export const GL_DATA_SHORT: number = 0x1402;
+export const GL_SHORT: number = 0x1402;
 
 /**
  * @constant {number}
  */
-export const GL_DATA_UNSIGNED_SHORT: number = 0x1403;
+export const GL_UNSIGNED_SHORT: number = 0x1403;
 
 /**
  * @constant {number}
  */
-export const GL_DATA_INT: number = 0x1404;
+export const GL_INT: number = 0x1404;
 
 /**
  * @constant {number}
  */
-export const GL_DATA_UNSIGNED_INT: number = 0x1405;
+export const GL_UNSIGNED_INT: number = 0x1405;
 
 /**
  * @constant {number}
  */
-export const GL_DATA_FLOAT: number = 0x1406;
+export const GL_FLOAT: number = 0x1406;
 
 // Pixel formats
 
@@ -860,22 +860,17 @@ export const GL_LUMINANCE_ALPHA: number = 0x190a;
 /**
  * @constant {number}
  */
-export const GL_PIXEL_UNSIGNED_BYTE: number = 0x1401;
+export const GL_UNSIGNED_SHORT_4_4_4_4: number = 0x8033;
 
 /**
  * @constant {number}
  */
-export const GL_PIXEL_UNSIGNED_SHORT_4_4_4_4: number = 0x8033;
+export const GL_UNSIGNED_SHORT_5_5_5_1: number = 0x8034;
 
 /**
  * @constant {number}
  */
-export const GL_PIXEL_UNSIGNED_SHORT_5_5_5_1: number = 0x8034;
-
-/**
- * @constant {number}
- */
-export const GL_PIXEL_UNSIGNED_SHORT_5_6_5: number = 0x8363;
+export const GL_UNSIGNED_SHORT_5_6_5: number = 0x8363;
 
 // Shaders
 // Constants passed to WebGLRenderingContext.getShaderParameter()
